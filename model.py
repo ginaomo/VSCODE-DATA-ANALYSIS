@@ -18,7 +18,7 @@ matplotlib.use('Agg')
 
 # creating fnction to handle actions
 def main():
-    activities=['EDA','Visualization','Prediction'] # select whatever you want to do
+    activities=['EDA','Visualisation','Prediction'] # select whatever you want to do
     choice=st.sidebar.selectbox("what do yo want to do?",activities)
     if choice =="EDA":
         st.subheader("Exploratory Data Analysis")
