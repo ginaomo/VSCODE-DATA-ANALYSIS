@@ -37,7 +37,7 @@ def main():
             st.success("Data uploaded successfully")
             df = pd.read_csv(data)
             st.dataframe(df.head())
-            st.write(sns.countplot(df, x=df["division"]))
+            st.write(sns.countplot(df, x=df.columns[0]))
             st.pyplot()
             st.set_option('deprecation.showPyplotGlobalUse', False)
     elif choice == "Prediction":
