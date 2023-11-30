@@ -66,7 +66,4 @@ def main():
         
 
 main()
-            
 
-
-main()
